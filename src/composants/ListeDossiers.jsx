@@ -7,7 +7,7 @@ export default function ListeDossiers() {
     <ul className="ListeDossiers">
       {
         dossTab.map( 
-          dossier =>  <li><Dossier key={dossier.id} {...dossier} /></li>
+          dossier =>  <li key={dossier.id}><Dossier {...dossier} /></li>
         )
       }
     </ul>

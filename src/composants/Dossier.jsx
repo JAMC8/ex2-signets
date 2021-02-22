@@ -4,7 +4,7 @@ import MoreVertIcon from '@material-ui/icons/MoreVert';
 
 
 export default function Dossier({id, titre, couleur, dateModif}) {
-
+  console.log(id);
   return (
     <article className="Dossier" style={{backgroundColor: couleur}}>
       <div className="couverture">
