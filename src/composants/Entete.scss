@@ -1,0 +1,22 @@
+.Entete
+{
+    background-color: #333333;
+    color: white;
+    display: flex;  
+    margin: 0;
+    height: 40px;
+
+    .logo
+    {       
+        margin: auto 0 auto 10px;
+    }
+
+    .avatar
+    {
+        display: flex;
+        align-items: center;
+        margin: auto 15px auto auto;
+        justify-content: space-between;
+        
+    }
+}

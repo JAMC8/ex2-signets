@@ -1,0 +1,50 @@
+.Dossier
+{
+    margin: 10px;
+    box-shadow: 0 3px 5px grey;
+    position: relative;
+    padding-bottom: 15px;
+    .couverture
+    {
+        .deplacer
+        {
+            position: absolute;
+            color: rgba(255, 255, 255, 0.50);
+            background-color: rgba(0, 0, 0, 0.50);
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            top: 5px;
+            left: 5px;
+
+            .MuiSvgIcon-root
+            {
+                position: relative;
+                top: 20%;
+                left: 20%;
+            }
+        }
+
+        img
+        {
+            width: 100%;
+        }
+    }
+
+    .info
+    {
+        color:white;
+        margin-left: 5%;        
+    }
+
+    .MoreVertIcon
+    {
+        position: absolute;
+        right:    0;
+        bottom:   0;
+        background-color: transparent;
+        border: none;
+        color: white;
+        padding: 15px;
+    }
+}

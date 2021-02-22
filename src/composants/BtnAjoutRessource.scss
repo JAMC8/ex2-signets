@@ -1,0 +1,20 @@
+.BtnAjoutRessource
+{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: transparent;
+    border: none;
+    
+    .fab
+    {        
+        background-color: rgb(31, 31, 31);
+        color: white;
+
+        &:hover
+        {
+            color: black;
+        }
+    }
+
+}
